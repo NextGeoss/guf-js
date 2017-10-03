@@ -1,0 +1,1063 @@
+body, input, button, select, textarea {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+}
+.masthead .nav > li > a, .masthead .nav > li {
+    color: #000000;
+}
+.nav-collapse {
+    display: block;
+}
+nav.section.navigation {
+    padding: 0px;
+}
+body,.masthead, [role="main"], .main {
+  background-image: none;
+  background-color: #FFFFFF;
+  z-index: 998;
+}
+[role="main"] {
+    padding-top: 0px;
+}
+.site-footer {
+    background-color: #292929;
+    background-image: none;
+    margin-top: 30px;
+}
+.hero {
+    height: auto;
+    background: none;
+    background-size: cover;
+    background-image: url(/hero.jpg);
+}
+.search-box {
+  background-color: #D7EDEC;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+.search-form {
+    border-bottom: none;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.homepage [role=main] {
+    padding: 0px;
+}
+.col-md-8.col-md-offset-2 {
+    margin-bottom: 20px;
+}
+.info {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0px 0 30px;
+}
+.info .info-title {
+  color: #3C4858;
+  margin: 30px 0 15px;
+}
+.info p {
+  color: #999999;
+}
+.section-navigation {
+    z-index: 999;
+}
+.section {
+  padding: 10px 0 20px;
+}
+.topic-list {
+  margin-top: 40px;
+}
+
+.topic-list .topic-item {
+  max-width: 250px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+*:focus {
+  outline: 0;
+}
+
+a:focus, a:active,
+button:active, button:focus, button:hover,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: 0 !important;
+}
+
+.topic-list .topic-item .title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.topic-list .topic-item img {
+  max-width: 170px;
+}
+.hero {
+  height: 60vh;
+}
+.hero .container {
+  padding-top: 7%;
+}
+.hero h1 {
+  color: #168B7A;
+  font-weight: 400;
+  font-size: 50px
+}
+.hero h4 {
+  color: #292929;
+  font-weight: 500;
+}
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: auto;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #168B7A;
+    border-color: #38A79F;
+    border-radius: 0px;
+    font-size: 16px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #168B7A;
+  *background-color: #168B7A;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #168B7A \9;
+}
+h2.heading {
+    margin-bottom: 15px;
+}
+.col-md-8.col-md-offset-2 {
+    margin-bottom: 0px;
+}
+.span9 {
+    width: 80%;
+}
+.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+    background-color: #168B7A;
+}
+.toolbar {
+    background-color: #D7EDEC;
+    padding-right: 15px;
+    padding-left: 30px;
+    margin: 0px;
+}
+.span3 {
+    background-color: #D7EDEC;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+.module-heading {
+    background-color: inherit;
+    border-top: none;
+}
+.filters-header {
+    text-align: center;
+    border-bottom: 2px solid #484A4C;
+}
+.wrapper {
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+    -box-shadow: none
+}
+.search-result-count {
+    text-align: left;
+}
+#green {
+    background-color: #D7EDEC;
+    border-radius: 0px 0px 4px 4px;
+    border: 0px 1px 1px 1px solid #dddddd;
+    margin-top: -30px;
+    height: 300px;
+    margin-bottom: -40px;
+}
+#green:first-child {
+  padding-top: 0;
+}
+li.dataset-item {
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    padding: 35px !important;
+    box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+.dataset-heading {
+}
+.dataset-heading a {
+    color: #168B7A;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.module {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.breadcrumb>li+li:before {
+    content: none;
+}
+.toolbar .breadcrumb .active a, .toolbar .breadcrumb a.active {
+    font-weight: inherit;
+}
+h2.title {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+h2.lined {
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    text-align:center;
+}
+h2.lined::before
+{
+  border-top: 2px solid #292929;
+  content:"";
+  margin: 0 auto
+ ; position: absolute;
+  top: 50%; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+}
+h2 span
+{
+  background: #fff;
+  padding: 0 20px;
+}
+.info {
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+      padding-bottom: 15px;
+}
+.info p {
+    color: inherit;
+}
+h4.title {
+    padding-bottom: 20px;
+}
+h4.title a {
+    color: #168B7A;
+}
+.topic-item a img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.topic-list .text-center {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container .toolbar {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.module-narrow #dataset-map-container {
+  height: 400px;
+}
+
+#dataset-map-attribution {
+  display: none;
+}
+
+#dataset-map .module-heading {
+  display: block;
+  background-color: #D7EDEC;
+}
+
+.datasets-search-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.datasets-search-form-container__controls {
+  display: flex;
+  justify-content: center;
+}
+
+.datasets-search-form-container__controls .search-input {
+  width: 560px;
+}
+
+.datasets-search-form-container__controls .search {
+  border-radius: 8px;
+  padding-left: 70px !important;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+.datasets-search-form-container__controls select {
+  border-radius: 8px;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+  width: 325px !important;
+  height: 52px;
+  padding-left: 25px;
+  margin-left: 15px;
+}
+
+.filters-header {
+  margin-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.filters-header .icon-filter {
+  font-size: 15px;
+  position: relative;
+  top: -3px;
+}
+
+.filters-header__title {
+  font-size: 20px;
+}
+
+.datasets-page .span3 {
+  width: 30%;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+.datasets-page .span9 {
+  width: 70%;
+}
+
+.datasets-page .span9 div.module-content {
+  padding-left: 25px !important;
+}
+
+.datasets-filters-facet-title {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom-color: #146304;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+.datasets-page .module-content:first-child {
+  padding-top: 0;
+}
+
+.datasets-page .module-content {
+  padding-right: 0;
+}
+
+.dataset-item-org-title {
+  color: #1660A8;
+  margin-top: -7px;
+}
+
+.dataset-resources li a {
+  padding: 9px 15px;
+  font-size: 14px;
+  background-color: #168B7A;
+  border-radius: 0px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.dataset-resources {
+  margin-top: 40px;
+}
+
+.search-form .search-input.search-giant input {
+  border-radius: 8px;
+  padding-left: 70px !important;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+.icon-search:before {
+  color: #168B7A;
+}
+
+.dataset-item-share {
+  background-color: #168B7A;
+  padding: 9px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  display: inline-block;
+  float:right;
+}
+
+.dataset-item-org-recent-views {
+    color: #1660A8;
+    margin-bottom: 20px;
+}
+
+.dataset-item-org-logo {
+  float: right;
+  clear: left;
+}
+
+.dataset-item-org-title a {
+  color: #1660A8;
+}
+
+.badge {
+  background-color: #1660A8 !important;
+}
+
+.nav-item.active > a, .nav-aside li.active a {
+  background-color: #f6f6f6;
+  color: inherit;
+}
+
+.nav-item.active > a span, .nav-aside li.active a span {
+  display: inline;
+}
+
+.nav-item.active > a:before, .nav-aside li.active a:before {
+  background-image: none;
+}
+
+.dataset-resources h5 {
+  margin-bottom: 5px;
+}
+
+.masthead .nav > li > a, .masthead .nav > li {
+  border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.section-landing {
+  margin-top: 30px;
+}
+
+.dataset-detail-org-logo {
+  float: right;
+  clear: left;
+  margin-top: 20px;
+}
+
+h1.dataset-detail-title {
+  margin-bottom: 0px;
+}
+
+h5.dataset-detail-title {
+  margin-top: 0px;
+}
+
+.dataset-notes {
+  margin-top: 50px;
+}
+
+#dataset-resources h3 {
+  border-bottom: 1px solid #292929;
+}
+
+
+.additional-info {
+  margin-top: 50px;
+  margin: 100px;
+}
+.additional-info h3 {
+    border-bottom: 1px solid #292929;
+}
+
+.social h3 {
+  border-bottom: 1px solid #292929;
+}
+
+th.dataset-label {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: right;
+  padding-right: 20px !important;
+}
+
+td.dataset-details {
+  font-weight: 300;
+  text-align: left;
+  padding-left: 20px !important;
+}
+
+table.table-dataset {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+section.resources {
+  margin-top: 30px;
+}
+.resource-list {
+  margin-top: 30px;
+}
+
+.resource-item {
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+.single-column {
+  margin-top: 30px;
+}
+
+.resource-item {
+  margin-bottom: 10px;
+}
+
+.dataset-resource-buttons {
+  float: right;
+}
+
+.dataset-resource-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#resource-col {
+  margin-bottom: 30px;
+}
+#resource-box {
+  background-image: url(/resource-box.png);
+  max-width: none;
+  width: 555px;
+  height: 249px;
+}
+
+.resource-box-left {
+  float: left;
+  width: 198px;
+  background: none;
+}
+
+.resource-box-right {
+  float: right;
+  width: 285px;
+}
+
+.btn-left {
+  margin-right: 10px;
+}
+
+.resource-box-buttons {
+  position: absolute;
+  bottom: 20px;
+
+}
+
+.resource-box-file-type {
+  position: absolute;
+  top: 45px;
+  left: 65px;
+}
+.resource-box-icon {
+  font-size: 120px;
+}
+
+.resource-box-file-ext {
+  font-size: 40px;
+  margin-top: 180px;
+  text-align: center;
+}
+
+.resource-box-title {
+  color: #292929;
+}
+
+.hero-text {
+  position: absolute;
+  top: 75px;
+  left: 200px;
+}
+
+h4.text-left.description {
+  margin-bottom: 25px;
+}
+
+.policy-links {
+  margin-top: 20px;
+}
+
+.policy-links .text-center {
+  color: #AEAEAE;
+}
+
+.policy-links .text-center a{
+  color: #AEAEAE;
+}
+
+.sponsor {
+  margin-top: 10px;
+}
+
+.media-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.dataset-map-expanded #dataset-map {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  top: -383px;
+  left: 0px;
+  background-color: #D7EDEC;
+  border: none;
+  margin: 0;
+}
+
+.dataset-map-expanded #dataset-map #dataset-map-container {
+  height: 400px;
+}
+
+.dataset-map-expanded #green {
+  margin-top: 52px;
+}
+
+#dataset-map .module-heading {
+  border-color: #D7EDEC;
+  border-radius: 0px;
+}
+
+.dataset-map-section h3 {
+  border-bottom: 1px solid #292929;
+}
+
+#dataset-map-big {
+  margin-top: 40px;
+}
+
+#dataset-map-attribution-big {
+  display: block;
+  margin-top: 10px;
+}
+
+.dataset-map-section {
+  margin-top: 30px;
+}
+
+section.resources {
+  margin-top: 50px;
+}
+
+section.dataset-map-section {
+  margin-top: 50px;
+}
+
+.dataset-item-org-license {
+    color: #1660A8;
+    margin-bottom: 20px;
+}
+
+.dataset-item-org-license a{
+    color: #1660A8;
+}
+
+.media-item {
+  width: 250px;
+  text-align: center;
+}
+
+.media-item img {
+  padding: 10px;
+}
+
+.media-item p {
+  text-align: left;
+  display: none;
+}
+
+.media-grid {
+  margin: 0px;
+  padding-left: 20px;
+  background: none;
+  border: none;
+}
+
+@media (min-width: 768px)
+.media-grid {
+    margin-left: 0px;
+}
+
+.page-header {
+  background-color: inherit;
+  border-bottom: none;
+}
+
+.search-form .search-input.search-giant button {
+  left: 20px;
+}
+
+.group-org-header {
+}
+
+.span3 {
+    width: 30%;
+    box-shadow: 0px 3px 13px -2px rgb(173, 173, 173);
+}
+
+.span9 {
+  width: 70%;
+  padding-left: 25px;
+}
+
+.module-content:first-child {
+  padding-top: 0px;
+}
+
+article.module {
+  margin-top: 50px !important;
+}
+
+.span9>article.module {
+  margin-top: 0px !important;
+}
+
+#group-datasets-search-form {
+  margin-top: -20px;
+  margin-bottom: 50px;
+ }
+
+ #organization-datasets-search-form {
+  margin-top: -20px;
+  margin-bottom: 50px;
+ }
+
+ .primary.span9 {
+  margin-top: 50px;
+ }
+
+  .secondary.span3 {
+  margin-top: 50px;
+ }
+
+@media only screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 3em;
+        position: absolute;
+        left: -150px;
+        top: -70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero h4 {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-text .row .col-md-6 {
+        width: 200%;
+    }
+}
+
+
+button.btn.btn-navbar {
+  background-color: #168B7A;
+}
+
+@media only screen and (max-width: 768px) {
+    .topic-list .topic-item {
+      max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2.lined:before {
+      border-top: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+      margin-bottom: 20px;
+    }
+}
+
+.disclaimer {
+  color: #292929;
+  text-align: center;
+  background-color: #FCF8E3;
+  width: 100%;
+}
+
+.disclaimer p {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+.disclaimer {
+    left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+.disclaimer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 321px) {
+.disclaimer p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+#resource-box {
+    width: auto;
+    height: auto;
+    background-image: url(/resource-box-mobile.png);
+  }
+.resource-box-left {
+  float: none;
+  width: auto;
+  text-align: center;
+}
+.resource-box-right {
+  float: none;
+  width: auto;
+  }
+.resource-box-right h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.resource-box-right p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.resource-box-icon {
+  visibility: hidden;
+  display: none;
+  }
+.resource-box-file-ext {
+  font-size: inherit;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  }
+.resource-box-file-type {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  }
+.resource-box-buttons {
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  }
+#dataset-resources h3 {
+  text-align: left;
+  margin-top: 5px;
+  }
+#dataset-resources .empty {
+  margin-left: 0px;
+  }
+#dataset-resources p {
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+.primary.span9 {
+  float: none;
+  display: block;
+  width: auto;
+  padding: 0px;
+  }
+.module-content {
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+.secondary.span3 {
+  float: none;
+  display: block;
+  width: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+  }
+}
+
+.metadata-col-header {
+  display: none;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .datasets-page .span9 div.module-content {
+    padding-left: 0px !important;
+  }
+  li.dataset-item {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .dataset-item-org-logo {
+    margin-left: 10px;
+  }
+  .datasets-search-form-container__controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .datasets-search-form-container__controls .search-input {
+    width: 100%;
+  }
+  .filters {
+    display: block !important;
+    position: relative !important;
+    background-color: inherit !important;
+  }
+  .filters > div {
+    background-color: inherit !important;
+  }
+  .toolbar .breadcrumb {
+    color: inherit !important;
+  }
+  .toolbar .breadcrumb a {
+    color: inherit !important;
+  }
+  h1.dataset-detail-title {
+    font-size: 24px;
+  }
+  .dataset-detail-org-logo {
+    width: 60px;
+  }
+}
+
+@media (max-width: 360px) {
+.datasets-search-form-container__controls {
+  width: 90%;
+  }
+.search-form .control-order-by select {
+  width: 100% !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero h1 {
+    top: -60px;
+    left: -170px;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero h1 {
+    top: -60px;
+    left: -170px;
+  }
+}
+
+@media (max-width: 991px) {
+.datasets-search-form-container__controls {
+  width: 90%;
+  }
+.search-form .control-order-by select {
+  width: 100% !important;
+  margin-left: 10px;
+  }
+  #green {
+    padding-left: 0px;
+  }
+}
+
+
+.atlwdg-trigger.atlwdg-TOP {
+  left: 0px !important;
+  color: #292929 !important;
+}
+
+.atlwdg-trigger {
+  z-index: 999;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  text-align: center;
+  background: none;
+  background-color: #FCF8E3 !important;
+  width: 100%;
+  padding-top: 20px !important;
+  padding-bottom: 15px !important;
+  font-size: 24px !important;
+  border: none !important;
+  border-radius: 0px;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+  .atlwdg-trigger {
+    font-size: 14px !important;
+  }
+  .atlwdg-popup {
+    width: auto !important;
+  }
+}
+
+.feedback-list {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 0;
+  padding: 0;
+}
+
+.feedback-item {
+  margin-bottom: 20px;
+}
+.comment-part-name {
+  font-style: italic;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}
+
+#feedback-button-center {
+  text-align: center;
+}
+
+.collapse {
+  position:relative;
+  height:0;
+  overflow:hidden;
+  -webkit-transition:height 0.35s ease;
+  -moz-transition:height 0.35s ease;
+  -o-transition:height 0.35s ease;
+  transition:height 0.35s ease;
+}
+.collapse.in {
+  height:auto;
+}
